@@ -9,7 +9,7 @@ To build the projects, run maven package commands for each of them (use Java 11 
 
 docker-compose up
 
-With the Postgres database, the Keycloak and the Backend Mock Service running, you can now go to custom-user-provider project and input the following command:
+With Postgres database, Keycloak and Backend Mock Service up and running, you can now go to custom-user-provider project and input the following command:
 
 docker cp target/custom-user-provider-1.0.jar [container]:opt/bitnami/keycloak/providers/custom.jar
 
